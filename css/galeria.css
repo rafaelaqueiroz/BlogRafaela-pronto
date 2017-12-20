@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+
+	section { margin: 0; background: #ffffff; }
+	#galeria { 
+		padding: .5vw;
+		font-size: 0;
+		flex-flow: row wrap; 
+		display: flex;
+	}
+	#galeria div { 
+		flex: auto; 
+		width: 400px; 
+		margin: .5vw; 
+	}
+	#galeria div img { 
+		width: 100%; 
+		height: auto; 
+	}
+
+	@media screen and (max-width: 400px) {
+		header div { margin: 0; }
+		header { padding: 0; }
+	}
+	
+	.esquerda{
+	float:left;
+	width:100%;
+	margin-top:65px;
+	padding-top:35px;
+	padding-bottom:35px;
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.50),0 4px 20px 0 rgba(0,0,0,0.50);
+	background-color:#ffffff;
+}
+header.esquerda{
+	padding-left:20px;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

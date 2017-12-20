@@ -1,0 +1,92 @@
+*{	margin: 0;
+	padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+.menu, h1,botao {font-family: "Montserrat", sans-serif}
+
+body{
+	text-align:center;
+	
+}
+
+
+.titulos{
+	font-size:45px;
+}
+
+
+.logo{
+	width:35%;
+}
+.cmd1{
+	width: 90%;
+}
+.article1{
+	background-color:white;
+	color:black;
+	float:left;
+	margin-top:60px;
+	padding-top:30px;
+	padding-left:15px;
+	padding-right:15px;
+	text-align:center;
+	width:31%;
+	height:AUTO;
+	line-height:2.5em;
+}
+
+footer{
+	padding-top:30px;
+	padding-bottom:30px;
+	text-align:center;	
+	background-color:#204060;
+	width:100%;
+	clear:both;	
+	text-decoration:none;
+	color:white;
+}
+
+.icone,.iconehover:hover{
+	overflow:hidden;
+	text-decoration:none;
+	width:auto;
+	float:center;
+	margin: 15px 15px;
+	color:white;
+	
+}
+.left, .right {
+  float:left;
+  width:20%; /*The width is 20%, by default*/
+}
+
+.main {
+  float:left;
+  width:60%; /*The width is 60%, by default*/
+}
+
+/*Use a media query to add a breakpoint at 800px:*/
+@media (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /*The width is 100%, when is 800px or smaller*/
+  }
+}
+
+
+.branco{
+	color:black!important;
+	background-color:white!important;
+}
+.hoverbranco:hover{
+	color:white!important;
+	background-color:black!important;
+}
+.preto,.pretohover:hover{
+	color:black!important;
+	background-color:#fff!important;
+}
