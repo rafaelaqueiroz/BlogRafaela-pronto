@@ -8,15 +8,34 @@
 	width:100%;
 	border-bottom: 0.5px solid black;
 }
+
 i{
 	color:black;
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 2px;
     padding: 0;
     overflow: hidden;
     background-color: #204060;
+}
+
+.text1{
+	text-align:center;
+	
+}
+.img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+	flex-flow: row wrap; 
+	display: flex;
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.50),0 4px 20px 0 rgba(0,0,0,0.75);
+	margin: 10px 10px;
+}
+
+.img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .left, .right {
